@@ -41,8 +41,8 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
+API_ID = int(environ.get('API_ID', '28643132'))
+API_HASH = environ.get('API_HASH', '510c3009ea589830a89e045bf8aae656')
 BOT_TOKEN = environ.get('BOT_TOKEN', '5988914131:AAFM0uGGj1qyedJeZmCHBbXpOoSHlapwDRw')
 
 # Bot settings
@@ -91,7 +91,7 @@ S_GROUP = environ.get('S_GROUP',"https://t.me/czdbotz_support")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/czdbotz")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+BVP4yf8HHEFmNmJl")
 MSG_ALRT = environ.get('MSG_ALRT', 'Oh God 🥵')
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001832732995'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001854284651'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'czdbotz_support')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
