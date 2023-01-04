@@ -52,8 +52,6 @@ async def start(client, message):
             InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/AFxSU'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ​', url='https://t.me/at3movies')
         ], [
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​', url='https://t.me/czdbotz')
-        ], [
             InlineKeyboardButton('ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ​' , callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -103,8 +101,6 @@ async def start(client, message):
         ], [
             InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/AFxSU'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ​', url='https://t.me/at3movies')
-        ], [
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​', url='https://t.me/czdbotz')
         ], [
             InlineKeyboardButton('ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ​' , callback_data='close_data')
         ]]
