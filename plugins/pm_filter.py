@@ -592,7 +592,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/AFxSU'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ​', url='https://t.me/at3movies')
         ], [
-            InlineKeyboardButton('ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ​' , callback_data='close_data')
+            InlineKeyboardButton('ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ' , callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -631,7 +631,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy'),
              InlineKeyboardButton('ᴀʙᴏᴜᴛ​', callback_data='about')    
          ], [ 
-             InlineKeyboardButton('<<​​ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ>​>​', callback_data='start') 
+             InlineKeyboardButton('⋘​​ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ⋙', callback_data='start') 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(                     
