@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://telegra.ph/file/e265ed0a09295c6077f39.jpg" alt="Elsa">
-</p>
+
 <h1 align="center">
   <b>Elsa</b>
 </h1>
@@ -91,7 +89,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Koyeb</summary>
 <br>
 <p>
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Devil-Botz/Elsa&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[CHANNELS]&env[ADMINS]&env[PICS]&env[LOG_CHANNEL]&env[AUTH_CHANNEL]&env[CUSTOM_FILE_CAPTION]&env[DATABASE_URI]&env[DATABASE_NAME]&env[COLLECTION_NAME]=Telegram_files&env[SUPPORT_CHAT]&env[IMDB]=True&env[IMDB_TEMPLATE]&env[SINGLE_BUTTON]=True&env[AUTH_GROUPS]&env[P_TTI_SHOW_OFF]=True&run_command=python%20bot.py&branch=main&name=Elsa">
+<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/tempreqbot/elsarequest&branch=main&name=elsarequest">
  <img src="https://www.koyeb.com/static/images/deploy/button.svg">
 </p>
 </details>
