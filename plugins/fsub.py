@@ -2,6 +2,7 @@ import asyncio
 from pyrogram import Client, enums
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
+from Script import script
 
 from database.join_reqs import JoinReqs
 from info import REQ_CHANNEL, AUTH_CHANNEL, JOIN_REQS_DB, ADMINS
@@ -95,13 +96,10 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
 
         buttons = [
             [
-                InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=invite_link)
+                InlineKeyboardButton("👤 ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=invite_link)
             ],
             [
-                InlineKeyboardButton("ᴍᴇ ᴊᴏɪɴᴇᴅ​", callback_data=f"{mode}#{file_id}")
-            ],
-            [
-               InlineKeyboardButton(f"🤔 Hᴇʏ ʙᴏᴛ...! Wʜʏ I Aᴍ Jᴏɪɴɪɴɢ", 'ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\nɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄɪɴᴇᴍᴀʟᴀ.ᴄᴏᴍ')
+                InlineKeyboardButton("👥 ᴍᴇ ᴊᴏɪɴᴇᴅ​", callback_data=f"{mode}#{file_id}")
             ]
         ]
         
