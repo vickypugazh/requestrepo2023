@@ -91,7 +91,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
-        text="""**Fɪʀsᴛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ <a href=https://t.me/at3movies>【 ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 】</a>ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ. ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴄʟɪᴄᴋ ᴏɴ【 ᴍᴇ ᴊᴏɪɴᴇᴅ 】ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇ...**"""
+        text="""**Fɪʀsᴛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ <a href='https://t.me/at3movies'>【 ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 】</a> ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ. ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴄʟɪᴄᴋ ᴏɴ <a href='https://t.me/czdbotz'>【 ᴍᴇ ᴊᴏɪɴᴇᴅ 】</a> ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇ...**"""
 
         buttons = [
             [
@@ -99,6 +99,9 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
             ],
             [
                 InlineKeyboardButton("ᴍᴇ ᴊᴏɪɴᴇᴅ​", callback_data=f"{mode}#{file_id}")
+            ],
+            [
+               InlineKeyboardButton(f"🤔 Hᴇʏ ʙᴏᴛ...! Wʜʏ I Aᴍ Jᴏɪɴɪɴɢ", 'join is saftey')
             ]
         ]
         
