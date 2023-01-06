@@ -600,7 +600,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer("🛠Hᴇʀᴇ ɪꜱ ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴇɴᴛ🛠")
+        await query.answer("Wʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ?")
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manuelfilter'),
@@ -639,7 +639,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer("ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ🥳")
+        await query.answer("🛠Hᴇʀᴇ ɪꜱ ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴇɴᴛ🛠")
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
@@ -658,6 +658,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        await query.answer("ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ 🥳")
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/CrazyDeveloperTG/Doctor-Strange'),
