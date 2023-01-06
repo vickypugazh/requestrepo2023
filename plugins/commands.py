@@ -469,8 +469,7 @@ async def settings(client, message):
                 ),
             ],
             [
-                InlineKeyboardButton(
-                'Cʟᴏsᴇ Sᴇᴛᴛɪɴɢs', callback_data='close_data')
+                InlineKeyboardButton('Cʟᴏsᴇ Sᴇᴛᴛɪɴɢs', callback_data='close_data')
             ],
         ]
 
