@@ -9,6 +9,7 @@ class script(object):
 ©MᴀɪɴᴛᴀɪɴᴇD Bʏ : <a href='https://t.me/AFxSU'>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>
 </b>"""    
     HELP_TXT = """<b>ʜᴇʏ {}
+
 ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
 
 
