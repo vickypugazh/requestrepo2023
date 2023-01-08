@@ -134,7 +134,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"▫️{get_size(file.file_size)}⊳ {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -154,15 +154,15 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
         ]
     )
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
          ]
     )
 
@@ -603,26 +603,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀᴜᴛᴏ', callback_data='autofilter'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct')
         ], [
-            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'),
-            InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
-            InlineKeyboardButton('ᴛᴛs', callback_data='tts')
-        ], [
-            InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video'),
-            InlineKeyboardButton('ᴛ_ɢʀᴀᴘʜ', callback_data='tele'),
+            
             InlineKeyboardButton('ɴᴇxᴛ', callback_data='aswin')    
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')      
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="▣ ▢ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣"
-        )       
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -665,6 +651,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('ɢ_ᴛʀᴀɴs', callback_data='gtrans'),
              InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb'),
         ],  [
+             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'),
+            InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
+            InlineKeyboardButton('ᴛᴛs', callback_data='tts')
+        ], [
+            InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video'),
+            InlineKeyboardButton('ᴛ_ɢʀᴀᴘʜ', callback_data='tele'),
+         ], [
              InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='aswin'),
              InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy'),
              InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start')
@@ -1081,7 +1074,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"▫️{get_size(file.file_size)}⊳ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1102,15 +1095,15 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
         ]
     )
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
          ]
     )
 
