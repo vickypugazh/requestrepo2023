@@ -305,10 +305,10 @@ Name - {}
 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/at3movies>ᴍᴏᴠɪᴇs ꜰʟɪx​</a>
-▫️<a href=https://t.me/MovieFlixGroupTG> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
+╔═════•✧❅✦❅✧•═════╗
+▣ <a href=https://t.me/at3movies>ᴍᴏᴠɪᴇs ꜰʟɪx​</a>
+▣ <a href=https://t.me/MovieFlixGroupTG> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
+╚═════•✧❅✦❅✧•═════╝</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
