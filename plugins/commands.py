@@ -43,18 +43,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('ʜᴇʟᴘ​', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ​', callback_data='about')
-        ], [
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ​ 🔍', switch_inline_query_current_chat='')
-        ], [
-            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/AFxSU'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ​', url='https://t.me/at3movies')
-        ], [
-            InlineKeyboardButton('ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ​' , callback_data='close_data')
-        ]]
+            InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/at3movies'),
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', url='https://t.me/aboutexinos')
+            ],[      
+            InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help'),
+            InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+            ],[
+            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', url='https://t.me/czdbotz_support')
+        ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -68,18 +66,16 @@ async def start(client, message):
             await ForceSub(client, message)
             return
         buttons = [[
-            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('ʜᴇʟᴘ​', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ​', callback_data='about')
-        ], [
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ​ 🔍', switch_inline_query_current_chat='')
-        ], [
-            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/AFxSU'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ​', url='https://t.me/at3movies')
-        ], [
-            InlineKeyboardButton('ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ​' , callback_data='close_data')
-        ]]
+            InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/at3movies'),
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', url='https://t.me/aboutexinos')
+            ],[      
+            InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help'),
+            InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+            ],[
+            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', url='https://t.me/czdbotz_support')
+        ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
