@@ -306,7 +306,7 @@ Name - {}
 ©{message.chat.title}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
 
 ╔═════•✧❅✦❅✧•═════╗
 ▣ <a href=https://t.me/at3movies>ᴍᴏᴠɪᴇs ꜰʟɪx​</a>
