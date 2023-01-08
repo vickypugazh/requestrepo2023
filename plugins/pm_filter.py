@@ -582,14 +582,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/AFxSU'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ​', url='https://t.me/at3movies')
-        ], [
-            InlineKeyboardButton('ʜᴇʟᴘ​', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ​', callback_data='about')
-        ]]
+            InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/at3movies'),
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', url='https://t.me/aboutexinos')
+            ],[      
+            InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help2'),
+            InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+            ],[
+            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', url='https://t.me/czdbotz_support')
+        ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
