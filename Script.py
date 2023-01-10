@@ -367,9 +367,14 @@ Name - {}
 📢 Bᴏᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ.</b>"""
 
     CREDIT_INFO = """
-<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
-    
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴀꜰsᴀʟ ʜᴀsʜɪᴍ​
-• ᴜꜱᴇʀɴᴀᴍᴇ : @crazyspiderr
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/AFxSU'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+      <b>⍟───[ Cʀᴇᴅɪᴛꜱ ]───⍟</b> 
+  
+𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href'https://github.com/EvamariaTG'>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
+𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href'https://github.com/Joelkb'>Jᴏᴇʟ ᠰ TɢX</a>
+𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href'https://github.com/CrazyDeveloperTG'></a>
+𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒<a href'https://github.com/Devil-Botz'>『Dᴇᴠɪʟ࿐Tɢ』</a>
 
+       <b>⍟───[ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ]───⍟</b>
+
+𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href'https://github.com/CrazyDeveloperTG/Doctor-Strange'>Dᴏᴄᴛᴏʀ Sᴛʀᴀɴɢᴇ</a>
+𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href'https://github.com/Devil-Botz/Elsa'>Eʟꜱᴀ</a>"""
