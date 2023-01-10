@@ -359,23 +359,23 @@ Name - {}
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/AFxSU'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     GROUP_INFO = """
-<b>⍟ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs Mᴏᴅᴜʟᴇ ⍟
+<b>⍟ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs Mᴏᴅᴜʟᴇ ⍟</b>
 🎬 Cᴏᴍᴘʟᴇᴛᴇ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Gʀᴏᴜᴘ.
 🚦 Aʟʟ Lᴀɴɢᴜᴀɢᴇs Mᴏᴠɪᴇs & Sᴇʀɪᴇs.
 🗣️ Bᴏᴛ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.
-📢 Bᴏᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ.</b>"""
+📢 Bᴏᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ."""
 
     CREDIT_INFO = """
       <b>⍟───[ Cʀᴇᴅɪᴛꜱ ]───⍟</b>   
-𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href'https://github.com/EvamariaTG'>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
-𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href'https://github.com/Joelkb'>Jᴏᴇʟ ᠰ TɢX</a>
-𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href'https://github.com/CrazyDeveloperTG'></a>
-𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒<a href'https://github.com/Devil-Botz'>『Dᴇᴠɪʟ࿐Tɢ』</a>
+𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href=https://github.com/EvamariaTG>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
+𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href=https://github.com/Joelkb>Jᴏᴇʟ ᠰ TɢX</a>
+𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://github.com/CrazyDeveloperTG>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>
+𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒<a href=https://github.com/Devil-Botz>『Dᴇᴠɪʟ࿐Tɢ』</a>
 
        <b>⍟───[ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ]───⍟</b>
-𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href'https://github.com/CrazyDeveloperTG/Doctor-Strange'>Dᴏᴄᴛᴏʀ Sᴛʀᴀɴɢᴇ</a>
-𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href'https://github.com/Devil-Botz/Elsa'>Eʟꜱᴀ</a>
+𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href=https://github.com/CrazyDeveloperTG/Doctor-Strange>Dᴏᴄᴛᴏʀ Sᴛʀᴀɴɢᴇ</a>
+𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href=https://github.com/Devil-Botz/Elsa>Eʟꜱᴀ</a>
 
        <b>⍟───[Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ]───⍟</b>
 𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/crazyspiderr>ɛӼ_ռöֆ__</a>
-𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/AFxSU>ɛӼ_ռöֆ__</a>"""
+𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/AFxSU>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>"""
