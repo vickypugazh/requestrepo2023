@@ -966,34 +966,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "group_info":
-            btn = [[
-                    InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="t.me/doctorstrangedb")
-                  ],[
-                    InlineKeyboardButton("Gʀᴏᴜᴘ", url="t.me/at3movies"),
-                    InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/dhhdhf")
-                  ],[
-                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="t.me/czdbotz_support"),
-                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/czdbotz")
-                  ],[
-                    InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
-                  ]]
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.GROUP_INFO),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
-elif query.data == "credit_info":
-            btn = [[
-                    InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start"),
-                  ]]
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.CREDIT_INFO),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
 
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
