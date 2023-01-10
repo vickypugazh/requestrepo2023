@@ -778,13 +778,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "filestore":
+    elif query.data == "store_file":
         buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help2')
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.FIlESTORE_TXT.format(query.from_user.mention),
+            text=script.FILE_STORE_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
