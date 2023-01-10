@@ -590,7 +590,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help2'),
             InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
             ],[
-            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', url='https://t.me/czdbotz_support')
+            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', callback_data="group_info")
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
