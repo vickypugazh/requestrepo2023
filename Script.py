@@ -358,7 +358,7 @@ Name - {}
 • ᴜꜱᴇʀɴᴀᴍᴇ : @crazyspiderr
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/AFxSU'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
-CREDIT_INFO = """
+    CREDIT_INFO = """
       <b>⍟───[ Cʀᴇᴅɪᴛꜱ ]───⍟</b> 
   
 𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href'https://github.com/EvamariaTG'>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
