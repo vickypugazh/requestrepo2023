@@ -482,7 +482,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
                 )
                 if settings['auto_delete']:
-                    await asyncio.sleep(600)
+                    await asyncio.sleep(60)
                     await Joel_tgx.delete()
                     await file_send.delete()
         except UserIsBlocked:
@@ -598,13 +598,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer("Wʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ?")
     elif query.data == "help2":
         buttons = [[
             InlineKeyboardButton('❄️ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇꜱ ❄️', callback_data='help')  
         ], [
             InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='filters'),
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='filestore')
+            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
         ], [
             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
             InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅꜱ', callback_data='extra')   
@@ -618,7 +617,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer("🛠Hᴇʀᴇ Iꜱ ᴍʏ Hᴇʟᴘ Cᴏᴍᴍᴇɴᴛ🛠")
     elif query.data == "help":
         buttons = [[
              InlineKeyboardButton('ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook'),
@@ -649,7 +647,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer("ᴇɴɪᴏʏ ᴍʏ ғᴇᴀᴛᴜʀᴇꜱ🧨")
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs​', url="https://t.me/czdbotz"),
@@ -780,7 +777,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "store_file":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
