@@ -584,7 +584,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/at3movies'),
+            InlineKeyboardButton('♗ ᴄʀᴇᴅɪᴛs ​♗', url="credit_info"),
             InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', callback_data="owner_info")
             ],[      
             InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help2'),
@@ -976,11 +976,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="t.me/czdbotz_support"),
                     InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/czdbotz")
                   ],[
-                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
+                    InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
                   ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
                 text=(script.GROUP_INFO),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+elif query.data == "credit_info":
+            btn = [[
+                    InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start"),
+                  ]]
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script.CREDIT_INFO),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
