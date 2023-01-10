@@ -957,12 +957,30 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "owner_info":
             btn = [[
-                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/creatorbeatz")
+                    InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="start"),
+                    InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ​", url="t.me/AFxSU")
                   ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
                 text=(script.OWNER_INFO),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+    elif query.data == "group_info":
+            btn = [[
+                    InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="t.me/doctorstrangedb")
+                  ],[
+                    InlineKeyboardButton("Gʀᴏᴜᴘ", url="t.me/at3movies"),
+                    InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/dhhdhf")
+                  ],[
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="t.me/czdbotz_support"),
+                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/czdbotz")
+                  ],[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
+                  ]]
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script.GROUP_INFO),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
