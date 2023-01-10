@@ -584,13 +584,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('♗ ᴄʀᴇᴅɪᴛs ​♗', url="t.me/AFxSU"),
+            InlineKeyboardButton('♗ ᴄʀᴇᴅɪᴛs ​♗', callback_data="credit_info"),
             InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', callback_data="owner_info")
             ],[      
             InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help2'),
             InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
             ],[
-            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', callback_data="close_data")
+            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', callback_data="credit_info")
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -963,6 +963,34 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
                 text=(script.OWNER_INFO),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+        elif query.data == "group_info":
+            btn = [[
+                    InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="t.me/doctorstrangedb")
+                  ],[
+                    InlineKeyboardButton("Gʀᴏᴜᴘ", url="t.me/at3movies"),
+                    InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/dhhdhf")
+                  ],[
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="t.me/czdbotz_support"),
+                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/czdbotz")
+                  ],[
+                    InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
+                  ]]
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script.GROUP_INFO),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+        elif query.data == "credit_info":
+            btn = [[
+                    InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start"),
+                  ]]
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script.CREDIT_INFO),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
