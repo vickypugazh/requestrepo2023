@@ -695,6 +695,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
         await query.message.edit_text(
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
@@ -746,6 +751,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
         await query.message.edit_text(
             text=script.CREDIT_INFO,
             reply_markup=reply_markup,
@@ -988,6 +998,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
         ]]   
         reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
         await query.message.edit_text(
             text=script.GROUP_INFO,
             reply_markup=reply_markup,
@@ -1046,6 +1061,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ​", url="t.me/AFxSU")
                   ]]
             reply_markup = InlineKeyboardMarkup(btn)
+            await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+            )
             await query.message.edit_text(
                 text=(script.OWNER_INFO),
                 reply_markup=reply_markup,
