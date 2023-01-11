@@ -218,10 +218,8 @@ Note:- <b>Give a user details</b>
 5. /luck or /cownd - 𝚂𝙿𝙸𝙽 𝙰𝙽𝙳 𝚃𝚁𝚈 𝚈𝙾𝚄𝚁 𝙻𝚄𝙲𝙺"""
 
     ADMIN_TXT = """Help: <b>Admin mods</b>
-
 <b>NOTE:</b>
 This module only works for my admins
-
 <b>Commands and Usage:</b>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
@@ -235,10 +233,16 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>
 • /grp_broadcast - <code>to broadcast a message to all groups</code>
-• /gfilter - <code>group filter</code>
-• /setskip - <code>skip no of files before indexing</code>
-• /send - <code>Send any message through bot to users. /send (username/userid) reply with message </code>"""
-    
+• /gfilter - <code>To add global filter</code>
+• /gfilters - <code>To view global filters</code>
+• /delallg - <code>To delete all global filters from database</code>
+• /delg - <code>To delete a specific global filter</code>
+• /setskip - <code>Skip no of files before indexing</code>
+• /send - <code>Send any message through bot to users. /send (username/userid) reply with message </code>
+• /deletefiles - <code>Delete CamRip and PreDvD files delete from database </code>
+• /totalrequests - <code>To Check Requests</code>
+• /purgerequests - <code>To Remove Requests</code>"""
+
     STATUS_TXT = """<b>📂 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
 ♻️ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
