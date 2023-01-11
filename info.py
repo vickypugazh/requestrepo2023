@@ -42,9 +42,9 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '28643132'))
-API_HASH = environ.get('API_HASH', '510c3009ea589830a89e045bf8aae656')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5339620069:AAGT4OW4sp3O_nHS_XO15T-l7trQ_a-oZ9A')
+API_ID = int(environ.get('API_ID', 'None'))
+API_HASH = environ.get('API_HASH', 'None)
+BOT_TOKEN = environ.get('BOT_TOKEN', 'None')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -74,10 +74,10 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tv:tv@cluster0.bkeqttx.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "at3movies")
+DATABASE_URI = environ.get('DATABASE_URI', "None")
+DATABASE_NAME = environ.get('DATABASE_NAME', "None")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://tv:tv@cluster0.bkeqttx.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = os.environ.get('MONGO_URL', "None")
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
@@ -85,14 +85,14 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 # Others
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
-MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/czdbotz_support")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/czdbotz")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+BVP4yf8HHEFmNmJl")
+MAX_BTN = int(environ.get('MAX_BTN', "10"))
+S_GROUP = environ.get('S_GROUP',"https://t.me/Cinemathattakam_Group")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/CT_Arena")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+b5Y_8_bbdZVlZTA1")
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ?')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001854284651'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'czdbotz_support')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 'None'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CT_Arena')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
