@@ -351,7 +351,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ :『🔱』Dr.സാത്താൻ 🆇🄰🆅🄸🅴🅁 𝗞Ǥ𝗙 ​
 • ᴜꜱᴇʀɴᴀᴍᴇ : @Sathan_Of_Telegram
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Sathan_Of_Telegram'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Sathan_Of_Telegram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     GROUP_INFO = """
 <b>⍟ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs Mᴏᴅᴜʟᴇ ⍟</b>
@@ -363,17 +363,17 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
     CREDIT_INFO = """
       <b>⍟───[ Cʀᴇᴅɪᴛꜱ ]───⍟</b>   
 𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href=https://github.com/EvamariaTG>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
-𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Sathan_Of_Telegram'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Sathan_Of_Telegram'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Sathan_Of_Telegram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Sathan_Of_Telegram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒 : <a href=https://github.com/Devil-Botz>『Dᴇᴠɪʟ࿐Tɢ』</a>
 
        <b>⍟───[ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ]───⍟</b>
-𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href=https://t.me/Sathan_Of_Telegram'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href=https://t.me/Sathan_Of_Telegram'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href=https://t.me/Sathan_Of_Telegram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href=https://t.me/Sathan_Of_Telegram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
        <b>⍟───[Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ]───⍟</b>
-𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Sathan_Of_Telegram'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/Sathan_Of_Telegram'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
+𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Sathan_Of_Telegram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/Sathan_Of_Telegram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
 
     FIlTERS_TXT = """
 <b>ʜᴇʏ,
