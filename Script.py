@@ -233,9 +233,9 @@ This module only works for my admins
 • /delg - <code>To delete a specific global filter</code>
 • /setskip - <code>Skip no of files before indexing</code>
 • /send - <code>Send any message through bot to users. /send (username/userid) reply with message </code>
-• /deletefiles - <code>Delete CamRip and PreDvD files delete from database </code>
-• /totalrequests - <code>To Check Requests</code>
-• /purgerequests - <code>To Remove Requests</code>"""
+• /deletefiles - <code>Delete CamRip and PreDvD files delete from database </code>"""
+
+
 
     STATUS_TXT = """<b>📂 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
